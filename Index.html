@@ -8,22 +8,32 @@
     <link rel="stylesheet" href="css\style.css">
   </head>
 </head>
-<nav class="navbar navbar-expand-sm navbar-dark pb-5">
+<nav class="navbar navbar-expand-sm navbar-dark ">
   <div class="container-fluid">
-    <a class="navbar-brand active" href="index.html">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mb-2 mb-lg-0 ms-auto mr-auto pr-3">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link text-light underline R" href="test.html">Testing Page</a>
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light underline R" href="mountain.html">Page 2</a>
+          <a class="nav-link" href="#">Features</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light underline R" href="field.html">Page 3</a>
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Pizza
+          </a>
+          <ul class="dropdown-menu seethru" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Pizza 1</a></li>
+            <li><a class="dropdown-item" href="#">Pizza 2</a></li>
+            <li><a class="dropdown-item" href="#">Pizza 3</a></li>
+          </ul>
         </li>
       </ul>
     </div>
