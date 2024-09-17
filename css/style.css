@@ -1,9 +1,12 @@
 body {
-    background-color: rgb(138, 25, 25);
+    background-color: rgb(36, 36, 36);
 }
 
 /* Nav */
-.seethru {
-    background-color: transparent;
-    border-color: transparent;
+.nav-font{
+    max-width: 24%;
+    
+}
+.link {
+    text-decoration: none;
 }
