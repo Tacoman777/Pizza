@@ -1,26 +1,22 @@
-body {
+
+html , body {
     background-color: rgb(17, 17, 17);
 }
 
 /* Nav */
 nav {
-    
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 .nav-font{
-    
     width:100%;
     height: auto;
-    
-    
-    
 }
 
 .link {
     text-decoration: none;
 }
-img:hover {
-    background-color: red;
+.nav-img:hover {
+    background-color: rgb(209, 96, 96);
 }
