@@ -4,33 +4,39 @@ html {
 }
 
 /* Nav */
-nav {
+.row {
+    box-sizing: border-box;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-wrap: wrap;
 }
-
+.column {
+    flex: 25%;
+    
+}
 .nav-font{
     width:100%;
     height: auto;
 }
 
+.nav-link {
+    display: flex;
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+}
+
 @media screen and (min-width: 1600px) {
-    nav {
-        display: flex;
-        flex-direction: row;
+    
+    .nav-link{
+        width:80%;
+        height: 7em;
         align-items: center;
+        margin-left: 10%;
         
-    }
-    .nav-font{
-      width:80%;
-      height: auto;
       
     }
   }
-.link {
-    text-decoration: none;
-}
+
 .nav-img:hover {
     background-color: rgb(209, 96, 96);
 }
